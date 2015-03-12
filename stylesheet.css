@@ -1,3 +1,8 @@
+body {
+  font-family:'Open Sans';
+  background-color:#008CB8;
+}
+
 div.container {
   display:table;
   width:900px;
@@ -15,9 +20,15 @@ div.container {
   vertical-align:middle;
   width:50%;
   margin:auto;
-  
+
 }
 
+.vline {
+  height:80%;
+  width:0;
+  margin-top:40px;
+  border:1px solid #EEEEEE;
+}
 
 .right {
   display:table-cell;
@@ -40,6 +51,9 @@ fieldset{
 
 input{
   border:none;
+  outline:none;
+  font-size:13px;
+  color:#000000;
 }
 
 .button {
@@ -56,12 +70,24 @@ input{
 
 span {
   color:#000000;
+
 }
 
-#p1 {
+.p1 {
   font-size:13px;
   color:#0084B2;
   display:inline;
   float:right;
   margin-top:5px;
+}
+
+a {
+  font-size:13px;
+  color:#0084B2;
+  text-decoration:none;
+}
+
+.p2 {
+  font-size:22px;
+  color:#000000;
 }
